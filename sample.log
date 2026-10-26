@@ -1,0 +1,5 @@
+2026-10-26T10:00:01 app started
+2026-10-26T10:00:02 listening on :8080
+2026-10-26T10:01:14 ERROR disk usage 97%
+2026-10-26T10:02:03 request ok
+2026-10-26T10:03:44 ERROR upstream timeout
