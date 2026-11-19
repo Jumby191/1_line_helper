@@ -1,0 +1,13 @@
+name: test-CI
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: docker config before push
+      run: docker compose config
