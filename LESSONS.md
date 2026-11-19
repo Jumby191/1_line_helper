@@ -23,10 +23,11 @@
 14. Остановка и запуск контейнера `test-nginx` на этом Mac. Разбор: `notes/09-restart.md`.
 15. Инструкция, если `http://127.0.0.1:8080` у контейнера `test-nginx` не отвечает. Разбор: `notes/10-runbook.md`.
 16. Тот же nginx из файла Compose в этом репозитории, порт `8080`. Разбор: `notes/11-compose.md`.
+17. Проверка `compose.yaml` в GitHub Actions при push в `main`. Разбор: `notes/12-ci.md`.
 
 ## Сейчас
 
-17. Проверка `compose.yaml` в GitHub Actions при push в `main`. Разбор: `notes/12-ci.md`.
+Нет. Следующее занятие откроется по запросу.
 
 ## Дальше
 
