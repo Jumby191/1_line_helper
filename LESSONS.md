@@ -24,6 +24,7 @@
 15. Инструкция, если `http://127.0.0.1:8080` у контейнера `test-nginx` не отвечает. Разбор: `notes/10-runbook.md`.
 16. Тот же nginx из файла Compose в этом репозитории, порт `8080`. Разбор: `notes/11-compose.md`.
 17. Проверка `compose.yaml` в GitHub Actions при push в `main`. Разбор: `notes/12-ci.md`.
+18. Nginx в Kubernetes на этом Mac, порт `8081`. Разбор: `notes/13-k8s.md`.
 
 ## Сейчас
 
@@ -31,4 +32,4 @@
 
 ## Дальше
 
-18. Пока нет.
+19. Пока нет.
