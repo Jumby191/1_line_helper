@@ -25,6 +25,7 @@
 16. Тот же nginx из файла Compose в этом репозитории, порт `8080`. Разбор: `notes/11-compose.md`.
 17. Проверка `compose.yaml` в GitHub Actions при push в `main`. Разбор: `notes/12-ci.md`.
 18. Nginx в Kubernetes на этом Mac, порт `8081`. Разбор: `notes/13-k8s.md`.
+19. Под `nginx` не становится Ready, затем его возвращают. Разбор: `notes/14-not-ready.md`.
 
 ## Сейчас
 
@@ -32,4 +33,4 @@
 
 ## Дальше
 
-19. Пока нет.
+20. Пока нет.
