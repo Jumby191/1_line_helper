@@ -27,6 +27,7 @@
 18. Nginx в Kubernetes на этом Mac, порт `8081`. Разбор: `notes/13-k8s.md`.
 19. Под `nginx` не становится Ready, затем его возвращают. Разбор: `notes/14-not-ready.md`.
 20. Readiness-проба у `nginx-deployment`: сначала под не Ready, затем снова Ready. Разбор: `notes/15-probe.md`.
+21. Кавычки и конвейер: фраза `disk usage` в `sample.log`. Разбор: `notes/16-quotes.md`.
 
 ## Сейчас
 
@@ -34,4 +35,13 @@
 
 ## Дальше
 
-21. Пока нет.
+22. Пока не открыто. Дальше в блоке bash: `grep`, одно поле из строки, поиск по файлам, короткий скрипт. Готовую команду на боевом сервере запускаете вы сами. Затем Patroni: учебный кластер PostgreSQL в Docker на этом Mac. Затем Pacemaker и Corosync на двух учебных Linux-машинах на этом Mac. Рабочие серверы в лабораторию не берём. Последний блок — собеседование: вопросы из https://github.com/Swfuse/devops-interview отвечаете вслух до чужого ответа, плюс резюме и два обезличенных разбора.
+
+## Опора
+
+Каталоги инструментов в занятия не превращаем. К документу возвращаемся на своём блоке.
+
+- Bash: [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line). Рядом уже данные BashGuide и The Linux Command Line.
+- Patroni: [документация](https://patroni.readthedocs.io/en/latest/) и [runbook GitLab](https://runbooks.gitlab.com/patroni/patroni-management/): чем switchover отличается от failover.
+- Pacemaker: [Clusters from Scratch](https://clusterlabs.org/projects/pacemaker/doc/3.0/Clusters_from_Scratch/singlehtml/), главы про quorum и fencing.
+- Разбор сбоя: [культура постмортема](https://sre.google/sre-book/postmortem-culture/) и [шаблоны](https://github.com/dastergon/postmortem-templates).
